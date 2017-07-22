@@ -69,6 +69,7 @@ if (isset($_GET['action']))
             }
             else
             {
+                $_SESSION['offset']=0;
                 $query = "SELECT `name`,`email`,`mobile`,`createTime` FROM `leads_archive` ORDER BY `createTime` DESC LIMIT 13 OFFSET 0";
                 $result = $mysqli->query($query);
                 $response = "
@@ -477,6 +478,7 @@ if (isset($_GET['action']))
             }
             else
             {
+                $_SESSION['offset_order']=0;
                 $query="SELECT A.`orderNumber` , `name` , `phone` , `address` ,`city` ,`createTime` FROM `orders_archive` AS A JOIN `customers` AS B WHERE A.`customerNumber` = B.`id` ORDER BY `createTime` ASC limit 11";
                 $result = $mysqli->query($query);
                 $response = "
