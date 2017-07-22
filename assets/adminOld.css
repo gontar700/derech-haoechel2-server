@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* RESET CSS BEGIN */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+body {
+    line-height: 1;
+    direction:rtl;
+    background: #f1f1f1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*RESET CSS END*/
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.logo
+{
+    margin: 40px 575px 30px 490px;
+}
+.img
+{
+    width: auto;
+    height: auto;
+}
+.login
+{
+    margin: 0 490px 411px 490px;
+    height: 250px;
+    width: 300px;
+    background: #fff;
+}
+.label
+{
+    color: #7f8284;
+    font-size: 18px;
+    float: right;
+    margin-right: 24px;
+}
+.input
+{
+    width: 255px;
+    height: 39px;
+    float: right;
+    background: #faffbd;
+    margin-right: 24px;
+    font-size: 17px;
+    padding: 7px;
+    direction: ltr;
+}
+#label1
+{
+    margin: 30px 24px 7px;
+}
+#label2
+{
+    margin: 21px 24px 7px;
+}
+#label3
+{
+    margin: 21px 50px 7px;
+    font-size: 13px;
+}
+#checkbox
+{
+    width: 15px;
+    height: 15px;
+    margin: 200px -87px 0 0;
+}
+.submit
+{
+    width: 60px;
+    height: 30px;
+    background: #0085ba;
+    color: #fff;
+    float: left;
+    border-radius: 5px;
+    margin: 17px 0 0 20px;
+}
+.forget
+{
+    color: #7f8284;
+    font-size: 13px;
+    float: right;
+    position: absolute;
+    top: 409px;
+    right: 512px;
+}
+.forget a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
